@@ -7,21 +7,6 @@ const values = [
   "Long-term healthcare relationships",
 ];
 
-const directors = [
-  {
-    name: "Ms. Jyoti Daga",
-    role: "Director",
-    profile:
-      "Ms. Jyoti Daga plays a key leadership role in guiding NovaBio Pharma’s vision, business direction, and partner relationships. Her focus is on building a reliable pharmaceutical company committed to quality-focused formulations, ethical business practices, and long-term healthcare partnerships.",
-  },
-  {
-    name: "Ms. Kirti Daga",
-    role: "Director",
-    profile:
-      "Ms. Kirti Daga contributes to the strategic growth and operational development of NovaBio Pharma. She focuses on strengthening product portfolio planning, supply coordination, and customer-oriented service across the company’s core therapeutic segments.",
-  },
-];
-
 const highlights = [
   {
     title: "Quality",
@@ -38,21 +23,20 @@ const highlights = [
 ];
 
 export const metadata = {
-  title: "About Us | NovaBio Pharma",
+  title: "About Us | Nova Bio-Pharma Pvt Ltd",
   description:
-    "Learn about NovaBio Pharma, a quality-focused pharmaceutical company dealing in orthopaedic, gynaecological, and general medicine formulations.",
+    "Learn about Nova Bio-Pharma Pvt Ltd, a quality-focused pharmaceutical company dealing in orthopaedic, gynaecological, and general medicine formulations.",
 };
 
 export default function AboutPage() {
   return (
     <>
       <PageIntro
-        eyebrow="About NovaBio"
+        eyebrow="About Nova Bio-Pharma"
         title="A focused pharmaceutical company built on quality, reliability, and trust."
-        description="NovaBio Pharma deals in selected pharmaceutical formulations across Orthopaedics, Gynaecology, and General Medicine, supporting healthcare partners with dependable product access and responsive service."
+        description="Nova Bio-Pharma Pvt Ltd deals in selected pharmaceutical formulations across Orthopaedics, Gynaecology, and General Medicine, supporting healthcare partners with dependable product access and responsive service."
       />
 
-      {/* MISSION SECTION */}
       <section className="relative overflow-hidden bg-white px-6 py-20 lg:px-8">
         <div className="absolute -left-32 top-20 h-72 w-72 rounded-full bg-teal-100/60 blur-3xl" />
         <div className="absolute -right-32 bottom-10 h-72 w-72 rounded-full bg-indigo-100/70 blur-3xl" />
@@ -109,62 +93,6 @@ export default function AboutPage() {
         </div>
       </section>
 
-      {/* DIRECTORS SECTION */}
-      <section className="relative overflow-hidden bg-slate-50 px-6 py-20 lg:px-8">
-        <div className="absolute right-0 top-0 h-72 w-72 rounded-full bg-teal-100/70 blur-3xl" />
-        <div className="absolute bottom-0 left-0 h-72 w-72 rounded-full bg-indigo-100/70 blur-3xl" />
-
-        <div className="relative mx-auto max-w-7xl">
-          <div className="max-w-3xl">
-            <p className="text-sm font-black uppercase tracking-[0.24em] text-teal-700">
-              Leadership
-            </p>
-
-            <h2 className="mt-4 text-3xl font-black tracking-tight text-slate-950 sm:text-4xl lg:text-5xl">
-              Director profiles.
-            </h2>
-
-            <p className="mt-5 text-base leading-8 text-slate-600">
-              NovaBio Pharma is led by a focused leadership team committed to
-              quality, reliability, ethical business practices, and long-term
-              healthcare partnerships.
-            </p>
-          </div>
-
-          <div className="mt-12 grid gap-6 md:grid-cols-2">
-            {directors.map((director) => (
-              <article
-                key={director.name}
-                className="group relative overflow-hidden rounded-3xl border border-slate-200 bg-white p-8 shadow-sm transition duration-300 hover:-translate-y-1 hover:border-teal-200 hover:shadow-xl"
-              >
-                <div className="absolute inset-x-0 top-0 h-1 bg-gradient-to-r from-teal-500 via-cyan-400 to-indigo-500 opacity-0 transition group-hover:opacity-100" />
-
-                <div className="mb-6 flex h-16 w-16 items-center justify-center rounded-3xl bg-slate-950 text-xl font-black text-white shadow-lg shadow-slate-200">
-                  {director.name
-                    .replace("Ms. ", "")
-                    .split(" ")
-                    .map((word) => word[0])
-                    .join("")}
-                </div>
-
-                <p className="text-sm font-black uppercase tracking-[0.22em] text-teal-700">
-                  {director.role}
-                </p>
-
-                <h3 className="mt-3 text-2xl font-black tracking-tight text-slate-950">
-                  {director.name}
-                </h3>
-
-                <p className="mt-5 text-sm leading-7 text-slate-600">
-                  {director.profile}
-                </p>
-              </article>
-            ))}
-          </div>
-        </div>
-      </section>
-
-      {/* HIGHLIGHTS SECTION */}
       <section className="relative overflow-hidden bg-slate-950 px-6 py-20 text-white lg:px-8">
         <div className="absolute inset-0 bg-[radial-gradient(circle_at_top_left,rgba(20,184,166,0.22),transparent_35%),radial-gradient(circle_at_bottom_right,rgba(99,102,241,0.20),transparent_35%)]" />
 
