@@ -29,7 +29,7 @@ export default function Hero() {
           </h1>
 
           <p className="mt-6 max-w-2xl text-base leading-8 text-slate-200 sm:text-lg">
-            NovaBio Pharma deals in selected pharmaceutical formulations across
+            Nova Bio-Pharma Pvt Ltd deals in selected pharmaceutical formulations across
             Orthopaedics, Gynaecology, and General Medicine, serving healthcare
             partners with quality-focused products and dependable coordination.
           </p>

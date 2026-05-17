@@ -14,9 +14,9 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata = {
-  title: "NovaBio Pharma | Trusted Pharmaceutical Solutions",
+  title: "Nova Bio-Pharma Pvt Ltd | Trusted Pharmaceutical Solutions",
   description:
-    "NovaBio Pharma provides reliable pharmaceutical products, quality-focused formulations, and healthcare supply support.",
+    "Nova Bio-Pharma Pvt Ltd provides reliable pharmaceutical products, quality-focused formulations, and healthcare supply support.",
 };
 
 export default function RootLayout({ children }) {

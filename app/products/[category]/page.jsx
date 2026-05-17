@@ -15,12 +15,12 @@ export async function generateMetadata({ params }) {
 
   if (!category) {
     return {
-      title: "Category Not Found | NovaBio Pharma",
+      title: "Category Not Found | Nova Bio-Pharma Pvt Ltd",
     };
   }
 
   return {
-    title: `${category.shortTitle} Products | NovaBio Pharma`,
+    title: `${category.shortTitle} Products | Nova Bio-Pharma Pvt Ltd`,
     description: category.description,
   };
 }

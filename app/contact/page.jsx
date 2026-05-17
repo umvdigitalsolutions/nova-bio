@@ -1,9 +1,9 @@
 import PageIntro from "../components/PageIntro";
 
 export const metadata = {
-  title: "Contact Us | NovaBio Pharma",
+  title: "Contact Us | Nova Bio-Pharma Pvt Ltd",
   description:
-    "Contact NovaBio Pharma for pharmaceutical formulation inquiries, distributor partnerships, institutional supply, and healthcare collaboration.",
+    "Contact Nova Bio-Pharma Pvt Ltd for pharmaceutical formulation inquiries, distributor partnerships, institutional supply, and healthcare collaboration.",
 };
 
 export default function ContactPage() {
@@ -28,7 +28,7 @@ export default function ContactPage() {
               </p>
 
               <h2 className="mt-3 text-2xl font-black text-slate-950">
-                NovaBio Pharma
+                Nova Bio-Pharma Pvt Ltd
               </h2>
 
               <p className="mt-4 leading-7 text-slate-600">
@@ -46,10 +46,10 @@ export default function ContactPage() {
               </h2>
 
               <p className="mt-4 leading-7 text-slate-600">
-                info@novabiopharma.com
+                novabiopharmajdr@gmail.com
               </p>
 
-              <p className="leading-7 text-slate-600">+91 98765 43210</p>
+              <p className="leading-7 text-slate-600">+91 9460660918</p>
             </div>
 
             <div className="rounded-3xl border border-slate-200 bg-slate-50/80 p-7 shadow-sm">

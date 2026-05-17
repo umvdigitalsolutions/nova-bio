@@ -8,6 +8,7 @@ const navItems = [
   { href: "/", label: "Home" },
   { href: "/products", label: "Products" },
   { href: "/about", label: "About Us" },
+  { href: "/team", label: "Our Team" },
   { href: "/contact", label: "Contact" },
 ];
 
@@ -21,13 +22,13 @@ export default function Header() {
         <Link
           href="/"
           className="flex min-w-0 items-center gap-3"
-          aria-label="NovaBio Pharma home"
+          aria-label="Nova Bio-Pharma Pvt Ltd home"
           onClick={() => setOpen(false)}
         >
           <div className="flex h-13 w-13 shrink-0 items-center justify-center rounded-2xl border border-slate-200 bg-white p-1 shadow-sm">
             <Image
               src="/nova.jpg"
-              alt="NovaBio Pharma logo"
+              alt="Nova Bio-Pharma Pvt Ltd logo"
               width={58}
               height={58}
               priority
@@ -37,7 +38,7 @@ export default function Header() {
 
           <span className="min-w-0">
             <span className="block truncate text-base font-black tracking-tight text-slate-950 sm:text-lg">
-              NovaBio Pharma
+              Nova Bio-Pharma Pvt Ltd
             </span>
             <span className="block truncate text-[10px] font-bold uppercase tracking-[0.18em] text-teal-700 sm:text-xs">
               Care Through Science

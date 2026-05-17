@@ -5,6 +5,7 @@ const links = [
   { href: "/", label: "Home" },
   { href: "/products", label: "Products" },
   { href: "/about", label: "About Us" },
+  { href: "/team", label: "Our Team" },
   { href: "/contact", label: "Contact" },
 ];
 
@@ -26,7 +27,7 @@ export default function Footer() {
             <div className="flex h-14 w-14 items-center justify-center rounded-2xl border border-white/10 bg-white p-1 shadow-lg">
               <Image
                 src="/nova.jpg"
-                alt="NovaBio Pharma logo"
+                alt="Nova Bio-Pharma Pvt Ltd logo"
                 width={58}
                 height={58}
                 className="h-12 w-12 rounded-xl object-contain"
@@ -35,7 +36,7 @@ export default function Footer() {
 
             <div>
               <span className="block text-lg font-black tracking-tight">
-                NovaBio Pharma
+                Nova Bio-Pharma Pvt Ltd
               </span>
               <span className="block text-[10px] font-bold uppercase tracking-[0.2em] text-teal-300">
                 Care Through Science
@@ -110,7 +111,7 @@ export default function Footer() {
 
       <div className="relative border-t border-white/10 px-6 py-5">
         <div className="mx-auto flex max-w-7xl flex-col items-center justify-between gap-3 text-center text-xs text-slate-400 sm:flex-row">
-          <p>© 2026 NovaBio Pharma. All rights reserved.</p>
+          <p>© 2026 Nova Bio-Pharma Pvt Ltd. All rights reserved.</p>
           <p>Pharmaceutical formulations across focused therapeutic segments.</p>
         </div>
       </div>

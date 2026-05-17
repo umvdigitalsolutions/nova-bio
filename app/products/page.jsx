@@ -4,9 +4,9 @@ import PageIntro from "../components/PageIntro";
 import { productCategories } from "../data/productCategories";
 
 export const metadata = {
-  title: "Products | NovaBio Pharma",
+  title: "Products | Nova Bio-Pharma Pvt Ltd",
   description:
-    "Explore NovaBio Pharma product portfolio across orthopaedic formulations, gynaecological formulations, and general therapeutic formulations.",
+    "Explore Nova Bio-Pharma Pvt Ltd product portfolio across orthopaedic formulations, gynaecological formulations, and general therapeutic formulations.",
 };
 
 export default function ProductsPage() {
