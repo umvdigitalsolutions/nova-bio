@@ -46,7 +46,7 @@ const leadership = [
     location: "Corporate Office",
     image: "/teja.jpeg",
     email: "teja2k@gmail.com",
-    phone: "+91 98765 43210",
+    phone: "+91 9461810266",
     description:
       "Mr. Teja Ram leads the executive management of Nova Bio-Pharma Pvt Ltd, overseeing business strategy, market development, team coordination, and execution of the company’s growth plans.",
     responsibilities: [
@@ -91,15 +91,15 @@ const leadership = [
     ],
   },
   {
-    name: "Mr. Shivraj",
+    name: "Mr. Shivraaay Singh Chouhan",
     role: "Supply Chain Executive",
     department: "Supply Chain & Logistics",
-    location: "Corporate Office",
+    location: "Udaipur Division",
     image: "/shiv.jpeg",
     email: "novabiopharmajdr@gmail.com",
     phone: "+91 9460660918",
     description:
-      "Mr. Shivraj supports supply planning, product availability coordination, dispatch follow-up, logistics communication, and day-to-day supply chain support.",
+      "Mr. Shivraaay Singh Chouhan supports supply planning, product availability coordination, dispatch follow-up, logistics communication, and day-to-day supply chain support.",
     responsibilities: [
       "Supply planning",
       "Product availability coordination",
@@ -158,6 +158,24 @@ const leadership = [
       "Operational support",
     ],
   },
+
+  {
+  name: "Ms. Sona Swami",
+  role: "Headquarter Coordination Executive",
+  department: "Jaipur Headquarter Administration",
+  location: "Jaipur, Rajasthan",
+  image: "/sona.jpeg",
+  email: "novabiopharmajdr@gmail.com",
+  phone: "+91 9460660918",
+  description:
+    "Ms. Sona Swami supports coordination at the Jaipur Headquarter, including administrative assistance, internal communication, documentation follow-up, partner support, and day-to-day operational coordination.",
+  responsibilities: [
+    "Jaipur headquarter coordination",
+    "Administrative assistance",
+    "Internal communication",
+    "Documentation and partner support",
+  ],
+},
 ];
 
 const principles = [
