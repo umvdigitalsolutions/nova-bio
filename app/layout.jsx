@@ -17,6 +17,11 @@ export const metadata = {
   title: "Nova Bio-Pharma Pvt Ltd | Trusted Pharmaceutical Solutions",
   description:
     "Nova Bio-Pharma Pvt Ltd provides reliable pharmaceutical products, quality-focused formulations, and healthcare supply support.",
+  icons: {
+    icon: "/nova.jpg",
+    shortcut: "/nova.jpg",
+    apple: "/nova.jpg",
+  },
 };
 
 export default function RootLayout({ children }) {

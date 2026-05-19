@@ -218,7 +218,7 @@ export default function TeamPage() {
           </div>
 
           <div className="mt-12 grid gap-8 sm:grid-cols-2 lg:grid-cols-3">
-            {leadership.map((person) => (
+            {leadership.map((person, index) => (
               <button
                 key={person.name}
                 type="button"
@@ -235,6 +235,8 @@ export default function TeamPage() {
                       alt={person.name}
                       fill
                       sizes="(max-width: 768px) 100vw, 33vw"
+                      loading={index < 2 ? "eager" : "lazy"}
+                      fetchPriority={index < 2 ? "high" : "auto"}
                       className="object-contain object-center p-2 transition duration-500 group-hover:scale-[1.02]"
                     />
                   </div>
