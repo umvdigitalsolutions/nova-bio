@@ -91,7 +91,7 @@ const leadership = [
     ],
   },
   {
-    name: "Mr. Shivraaay Singh Chouhan",
+    name: "Mr. Shivaaay Singh Chouhan",
     role: "Supply Chain Executive",
     department: "Supply Chain & Logistics",
     location: "Udaipur Division",
