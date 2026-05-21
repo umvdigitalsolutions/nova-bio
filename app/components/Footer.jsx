@@ -96,8 +96,8 @@ export default function Footer() {
           </h2>
 
           <div className="mt-5 space-y-3 text-sm leading-6 text-slate-300">
-            <p>info@novabiopharma.com</p>
-            <p>+91 98765 43210</p>
+            <p>novabiopharmajdr@gmail.com</p>
+            <p>+91 9460660918</p>
             <p>Jodhpur, Rajasthan, India</p>
           </div>
 
