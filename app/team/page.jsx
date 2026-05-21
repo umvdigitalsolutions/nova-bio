@@ -158,6 +158,23 @@ const leadership = [
       "Operational support",
     ],
   },
+  {
+    name: "Mr. Vishambhar Singh",
+    role: "Executive Medical Representative",
+    department: "Medical Representative Team",
+    location: "Bharatpur Branch",
+    image: "/Vish.jpeg",
+    email: "novabiopharmajdr@gmail.com",
+    phone: "+91 9460660918",
+    description:
+      "Mr. Vishambhar Singh supports the Bharatpur Branch as an Executive Medical Representative, coordinating healthcare partner communication, product information support, field follow-up, and local market relationship management.",
+    responsibilities: [
+      "Bharatpur branch coordination",
+      "Healthcare partner communication",
+      "Product information support",
+      "Field follow-up",
+    ],
+  },
 
   {
   name: "Ms. Sona Swami",
