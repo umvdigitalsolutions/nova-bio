@@ -46,34 +46,16 @@ export const productCategories = [
           "Calcium Citrate, Calcitriol, Folic Acid, Zinc Sulphate Monohydrate, Methylcobalamin & Vitamin K2-7 Tablets | Pack: 10 x 10 Tablets",
       },
       {
-        name: "Caldy SPNS",
+        name: "Caldy SUSPENSION",
         image: "/ortho/caldy-spns_2_40.jpg",
         description:
           "Calcium Carbonate, Vitamin D3, Lysine with Zinc Suspension | Pack: 200 ml",
-      },
-      {
-        name: "CARLY-5G Tablets",
-        image: "/ortho/carly-5g_2_36.jpg",
-        description:
-          "Grape Seed Extract, Camellia Sinensis, Panax Pseudo, Ginkgo Biloba, Allium Sativum, Carotenoids, Lycopene, Citrus Bioflavonoids, Amino Acids, Multivitamins, Multiminerals & Antioxidants Tablets | Pack: 10 x 10 Tablets",
       },
       {
         name: "Cifil-D3",
         image: "/ortho/cifil-d3_2_40.jpg",
         description:
           "Cholecalciferol Vitamin D3 Chewable Tablet 60000 IU | Pack: 10 x 4 Tablets",
-      },
-      {
-        name: "Cifinova-200",
-        image: "/ortho/cifinova-200_2_36.jpg",
-        description:
-          "Cefixime with Lactic Acid Bacillus Tablets | Pack: 10 x 10 Tablets",
-      },
-      {
-        name: "Clevia-LC Tablets",
-        image: "/ortho/clevia-LC-_tab_2_40.jpg",
-        description:
-          "L-Carnitine L-Tartrate, Vitamin B12 & Folic Acid Tablets | Pack: 10 x 10 Tablets",
       },
       {
         name: "Coxino-90 Tablets",
@@ -95,12 +77,6 @@ export const productCategories = [
         name: "DRONAX Oil",
         image: "/ortho/dronax_2_36.jpg",
         description: "Joint care oil / pain relief oil | Pack: 50 ml",
-      },
-      {
-        name: "NODROT-M Tablets",
-        image: "/ortho/nodrot-m_2_40.jpg",
-        description:
-          "Drotaverine HCl & Mefenamic Acid Tablets | Pack: 10 x 10 Tablets",
       },
       {
         name: "NOVAGAB",
@@ -164,6 +140,24 @@ export const productCategories = [
         description: "Ferrous Ascorbate, Folic Acid & Zinc Tablets",
       },
       {
+        name: "CALDY-CCM",
+        image: "/ortho/caldy-ccm_2_40.jpg",
+        description:
+          "Coral Calcium, Vitamin D3 & Zinc Sulphate Tablet | Pack: 10 x 10 Tablets",
+      },
+      {
+        name: "CARLY-5G Tablets",
+        image: "/ortho/carly-5g_2_36.jpg",
+        description:
+          "Grape Seed Extract, Camellia Sinensis, Panax Pseudo, Ginkgo Biloba, Allium Sativum, Carotenoids, Lycopene, Citrus Bioflavonoids, Amino Acids, Multivitamins, Multiminerals & Antioxidants Tablets | Pack: 10 x 10 Tablets",
+      },
+      {
+        name: "Clevia-LC Tablets",
+        image: "/ortho/clevia-LC-_tab_2_40.jpg",
+        description:
+          "L-Carnitine L-Tartrate, Vitamin B12 & Folic Acid Tablets | Pack: 10 x 10 Tablets",
+      },
+      {
         name: "L-GNOVA 6 Sachets",
         image: "/gynac/l-gnova_2_35.jpg",
         description:
@@ -173,6 +167,12 @@ export const productCategories = [
         name: "Novargin Sachets",
         image: "/gynac/novargin_2_35.jpg",
         description: "L-Arginine Sachets, Sugar Free, Orange flavour",
+      },
+      {
+        name: "NODROT-M Tablets",
+        image: "/ortho/nodrot-m_2_40.jpg",
+        description:
+          "Drotaverine HCl & Mefenamic Acid Tablets | Pack: 10 x 10 Tablets",
       },
     ],
   },
@@ -202,6 +202,12 @@ export const productCategories = [
         image: "/general/aliser-plus_2_35.jpg",
         description:
           "Potassium Citrate, Magnesium Citrate & Pyridoxine Hydrochloride Syrup",
+      },
+      {
+        name: "Cifinova-200",
+        image: "/ortho/cifinova-200_2_36.jpg",
+        description:
+          "Cefixime with Lactic Acid Bacillus Tablets | Pack: 10 x 10 Tablets",
       },
       {
         name: "Levono-M Tablets",

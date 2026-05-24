@@ -125,6 +125,23 @@ const leadership = [
     ],
   },
   {
+    name: "Mr. Mana Ram",
+    role: "Sales Executive",
+    department: "Sales & Distributor Relations",
+    location: "Barmer Office",
+    image: "/mana.png",
+    email: "novabiopharmajdr@gmail.com",
+    phone: "+91 9460660918",
+    description:
+      "Mr. Mana Ram supports the Barmer Office as a Sales Executive, coordinating local sales communication, distributor follow-up, product availability updates, and healthcare partner relationships.",
+    responsibilities: [
+      "Barmer office sales coordination",
+      "Distributor follow-up",
+      "Product availability updates",
+      "Healthcare partner relationships",
+    ],
+  },
+  {
     name: "Adv.Aditya Singh",
     role: "Head of Legal Department",
     department: "Legal, Compliance & Intellectual Property",
